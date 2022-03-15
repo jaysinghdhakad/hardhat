@@ -1,0 +1,188 @@
+{
+  "manifestVersion": "3.2",
+  "admin": {
+    "address": "0xe7f1725E7734CE288F8367e1Bb143E90bb3F0512",
+    "txHash": "0xba3e87e8887bb605e022603c297afa0bbe4b2eb4005256816b32839331ef90d0"
+  },
+  "proxies": [
+    {
+      "address": "0x9fE46736679d2D9a65F0992F2272dE9f3c7fa6e0",
+      "txHash": "0xeac241a721bbe8f6dc62c9ba4d28300e59ca8939a2ef7072fb8789cf93afb987",
+      "kind": "transparent"
+    }
+  ],
+  "impls": {
+    "3231ed15e50934af5949bdcbc598abe56e2d8376ec33ea7c0f52939750a66930": {
+      "address": "0x5FbDB2315678afecb367f032d93F642f64180aa3",
+      "txHash": "0xffa1aeb01024b31a06580e105db86377c03e841a4a1d09261ac4ccac85916bba",
+      "layout": {
+        "storage": [
+          {
+            "label": "totalAmount",
+            "offset": 0,
+            "slot": "0",
+            "type": "t_int256",
+            "contract": "ERC20",
+            "src": "contracts/ERC20-upgaradable.sol:20"
+          },
+          {
+            "label": "balance",
+            "offset": 0,
+            "slot": "1",
+            "type": "t_mapping(t_address,t_int256)",
+            "contract": "ERC20",
+            "src": "contracts/ERC20-upgaradable.sol:21"
+          },
+          {
+            "label": "allowance",
+            "offset": 0,
+            "slot": "2",
+            "type": "t_mapping(t_address,t_mapping(t_address,t_int256))",
+            "contract": "ERC20",
+            "src": "contracts/ERC20-upgaradable.sol:22"
+          },
+          {
+            "label": "name",
+            "offset": 0,
+            "slot": "3",
+            "type": "t_string_storage",
+            "contract": "ERC20",
+            "src": "contracts/ERC20-upgaradable.sol:23"
+          },
+          {
+            "label": "owner",
+            "offset": 0,
+            "slot": "4",
+            "type": "t_address",
+            "contract": "ERC20",
+            "src": "contracts/ERC20-upgaradable.sol:24"
+          },
+          {
+            "label": "initialize",
+            "offset": 20,
+            "slot": "4",
+            "type": "t_bool",
+            "contract": "ERC20",
+            "src": "contracts/ERC20-upgaradable.sol:25"
+          }
+        ],
+        "types": {
+          "t_address": {
+            "label": "address",
+            "numberOfBytes": "20"
+          },
+          "t_bool": {
+            "label": "bool",
+            "numberOfBytes": "1"
+          },
+          "t_int256": {
+            "label": "int256",
+            "numberOfBytes": "32"
+          },
+          "t_mapping(t_address,t_int256)": {
+            "label": "mapping(address => int256)",
+            "numberOfBytes": "32"
+          },
+          "t_mapping(t_address,t_mapping(t_address,t_int256))": {
+            "label": "mapping(address => mapping(address => int256))",
+            "numberOfBytes": "32"
+          },
+          "t_string_storage": {
+            "label": "string",
+            "numberOfBytes": "32"
+          }
+        }
+      }
+    },
+    "4a0c4902151bbc02d243a471fd351f2adf96d84cace0569e8359bb98752a32cb": {
+      "address": "0xCf7Ed3AccA5a467e9e704C703E8D87F634fB0Fc9",
+      "txHash": "0x82a491c3319ea2dd1077164f913641e0e1fca3936feba434d32c7a196bef1f91",
+      "layout": {
+        "storage": [
+          {
+            "label": "totalAmount",
+            "offset": 0,
+            "slot": "0",
+            "type": "t_int256",
+            "contract": "ERC20V2",
+            "src": "contracts/ERC20V2-upGradable.sol:20"
+          },
+          {
+            "label": "balance",
+            "offset": 0,
+            "slot": "1",
+            "type": "t_mapping(t_address,t_int256)",
+            "contract": "ERC20V2",
+            "src": "contracts/ERC20V2-upGradable.sol:21"
+          },
+          {
+            "label": "allowance",
+            "offset": 0,
+            "slot": "2",
+            "type": "t_mapping(t_address,t_mapping(t_address,t_int256))",
+            "contract": "ERC20V2",
+            "src": "contracts/ERC20V2-upGradable.sol:22"
+          },
+          {
+            "label": "name",
+            "offset": 0,
+            "slot": "3",
+            "type": "t_string_storage",
+            "contract": "ERC20V2",
+            "src": "contracts/ERC20V2-upGradable.sol:23"
+          },
+          {
+            "label": "owner",
+            "offset": 0,
+            "slot": "4",
+            "type": "t_address",
+            "contract": "ERC20V2",
+            "src": "contracts/ERC20V2-upGradable.sol:24"
+          },
+          {
+            "label": "initialize",
+            "offset": 20,
+            "slot": "4",
+            "type": "t_bool",
+            "contract": "ERC20V2",
+            "src": "contracts/ERC20V2-upGradable.sol:25"
+          },
+          {
+            "label": "ownerName",
+            "offset": 0,
+            "slot": "5",
+            "type": "t_string_storage",
+            "contract": "ERC20V2",
+            "src": "contracts/ERC20V2-upGradable.sol:26"
+          }
+        ],
+        "types": {
+          "t_address": {
+            "label": "address",
+            "numberOfBytes": "20"
+          },
+          "t_bool": {
+            "label": "bool",
+            "numberOfBytes": "1"
+          },
+          "t_int256": {
+            "label": "int256",
+            "numberOfBytes": "32"
+          },
+          "t_mapping(t_address,t_int256)": {
+            "label": "mapping(address => int256)",
+            "numberOfBytes": "32"
+          },
+          "t_mapping(t_address,t_mapping(t_address,t_int256))": {
+            "label": "mapping(address => mapping(address => int256))",
+            "numberOfBytes": "32"
+          },
+          "t_string_storage": {
+            "label": "string",
+            "numberOfBytes": "32"
+          }
+        }
+      }
+    }
+  }
+}
